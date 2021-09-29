@@ -1,0 +1,30 @@
+Step 1 :  Download project from github by using link 
+"https://github.com/rajatkhandelwal70/TechBlogProject"
+
+Step2 :  Open the zip file with any IDE (file -> open file from system project) 
+
+Step3 :  Change your data base ID and password according to your credentials in file application.properties
+(Here TEch Blog is using oracle database)
+
+Step4:  Run the project by right click on Application.java file.(Using port no 8086)(run as -> springBootApplication )
+
+Step5: IF it successfully run then got to your browser and type http://localhost:8086/regi 
+
+Step6: "http://localhost:8086/regi" is used to add blog to site, After suceesfully addition of blog , it will display successful message. 
+
+Step7:  If there is no blog in data base then "http://localhost:8086/home" will display only blank page.
+         (Suggestion: Before visit to  "http://localhost:8086/home" please add some blog)
+
+Step8:  "http://localhost:8086/adminLogin" use for admin login and after successful login, it will display dashboard where admin can delete, add and update blogs.
+         Admin credentials : 
+         User :  admin
+         Password: admin 
+
+Step9: "http://localhost:8086/enquiry" use link for raise query and raised query will directly grt to tech blog on email id 
+
+Step10: "http://localhost:8086/aboutUS" use link to know about Tech Blog. 
+
+
+       
+
+
