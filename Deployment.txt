@@ -11,16 +11,18 @@ Step4:  Run the project by right click on Application.java file.(Using port no 8
 Step5: IF it successfully run then got to your browser and type http://localhost:8086/regi 
 
 Step6: "http://localhost:8086/regi" is used to add blog to site, After suceesfully addition of blog , it will display successful message. 
+        (Note - Please use first.png/second.jpg/third.jpg for blogImage because these images already under "scr/resources/static/images" path )
 
 Step7:  If there is no blog in data base then "http://localhost:8086/home" will display only blank page.
-         (Suggestion: Before visit to  "http://localhost:8086/home" please add some blog)
+         (Suggestion: Before visit to  "http://localhost:8086/home" please add some blog by using - http://localhost:8086/regi)
 
 Step8:  "http://localhost:8086/adminLogin" use for admin login and after successful login, it will display dashboard where admin can delete, add and update blogs.
          Admin credentials : 
          User :  admin
          Password: admin 
 
-Step9: "http://localhost:8086/enquiry" use link for raise query and raised query will directly grt to tech blog on email id 
+Step9: "http://localhost:8086/enquiry" use link for raise query and raised query will directly go to tech  blog's email id(techblog93@gmail.com)
+      
 
 Step10: "http://localhost:8086/aboutUS" use link to know about Tech Blog. 
 
